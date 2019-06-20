@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #EEE;
+  height: 100%;
+  width: 100%;
+  font-family: 'Muli';
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Main bg */
+.main-bg {
+  background-image: url(../imgs/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* Header */
+.wrapper {
+  position: relative;
+  border: 1px solid black;
+}
+
+.nav {
+  background-color: #fed105;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  position: absolute;
+}
+
+.nav .container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav .container:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.nav .logo {
+  width: 150px;
+  float: left;
+}
+
+.nav ul {
+  list-style: none;
+  float: right;
+  position: relative;
+  top: 40px;
+  font-family: Muli;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav .navi-padding-left {
+  padding-left: 10px;
+}
+
+.nav .navi-padding-both {
+  padding: 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 1st Section */
+.first-section {
+  background-color: #fff;
+}
+
+.celebrate-image {
+  background-color: #333;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.celebrate-text {
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px 0 240px 0;
+  line-height: 1.3em;
+}
+
+/* 2nd Section */
+.second-section ul {
+  list-style: none;
+  width: 100%;
+}
+
+.second-section ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.second-section li {
+  float: left;
+  width: 33.33%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.second-section img {
+  opacity: 0.7;
+  transform: scale(1.1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.second-section img:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* 3rd Section */
+.third-section {
+  background-image: url(../imgs/collection-bg.png);
+  background-position: center center;
+  background-color: #fed105;
+}
+
+.third-section .third-section-title {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.third-section .container {
+  width: 900px;
+  margin: 0 auto;
+  padding-bottom: 240px;
+}
+
+.third-section ul {
+  list-style: none;
+}
+
+.third-section ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.third-section li {
+  background-color: #fff;
+  width: 300px;
+  float: left;
+  border: 1px solid #333;
+}
+
+.third-section .second-product {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.third-section .fourth-product {
+  border-top: 1px solid #fff;
+}
+
+.third-section .fifth-product {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+
+}
+
+.third-section .sixth-product {
+  border-top: 1px solid #fff;
+}
+
+.third-section figure {
+  padding: 30px;
+}
+
+/* 4th Section */
+.fourth-section {
+  background-color: #fff;
+  padding-bottom: 240px;
+}
+
+.fourth-section .fourth-section-title {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.fourth-section .container {
+  border: 1px solid black;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.fourth-section iframe {
+  width: 900px;
+  height: 500px;
+}
+
+
+/* Companies */
+.companies {
+  background-color: #fff;
+}
+
+.companies-box {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.companies-box img {
+  width: 150px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.companies .mid-box {
+  margin: 0 50px;
+}
+
+/* Footer */
+.footer {
+  background-color: #fed105;
+  padding: 50px 0;
+}
+
+.footer .container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer .copyright {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+.footer .logos {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer span {
+  display: inline-block;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .twitter {
+  margin: 0 10px;
+}
+
+.footer .youtube {
+  margin-right: 10px;
+}
