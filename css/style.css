@@ -103,6 +103,10 @@ img {
   line-height: 1.3em;
 }
 
+.celebrate-text-mobile {
+  display: none;
+}
+
 /* 2nd Section */
 .second-section ul {
   list-style: none;
