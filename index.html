@@ -32,11 +32,13 @@
     <div class="wrapper">
 
       <!----- Header ----->
-      <a href="" target="_blank">
-        <img src="./imgs/main-bg-480.jpg" alt="Sesame St. Main Image">
-      </a>
+      <div class="bg-image-upto899px">
+        <a href="" target="_blank">
+          <img class="main-bg" src="./imgs/main-bg.jpg" alt="Sesame St. Main Image">
+        </a>
+      </div>
 
-      <!----- Header
+      
       <div class="nav" style="width: 100%;">
         <div class="container">
 
@@ -71,65 +73,23 @@
 
         </div>
       </div>
-      ----->
 
       <!----- 1st Section ----->
       <div class="first-section" id="info">
         <div class="celebrate-image">
           <img src="./imgs/celebration.jpg" alt="Celebration Time!">
         </div>
-        <!--
-        <div class="celebrate-text">
+        <div class="celebrate-text"> <!-- x >= 768 -->
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </div> -->
-        <div class="celebrate-text-mobile">
+        </div>
+        <div class="celebrate-text-mobile"> <!-- x <= 767-->
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </div>
       </div>
 
       <!----- 2nd Section ----->
       <div class="second-section">
-        <div class="imgs">
-          <a href="">
-            <img src="./imgs/fivemsgs.jpg" alt="Five Messages">
-          </a>
-        </div>
-        <div class="imgs">
-          <a href="">
-            <img src="./imgs/real.jpg" alt="Real image">
-          </a>
-        </div>
-        <div class="imgs">
-          <a href="">
-            <img src="./imgs/heartfelt.jpg" alt="Heartfelt image">
-          </a>
-        </div>
-        <div class="imgs">
-          <a href="">
-            <img src="./imgs/simple.jpg" alt="Simple image">
-          </a>
-        </div>
-        <div class="imgs">
-          <a href="">
-            <img src="./imgs/funny.jpg" alt="Funny image">
-          </a>
-        </div>
-        <div class="imgs">
-          <a href="">
-            <img src="./imgs/furry.jpg" alt="Furry image">
-          </a>
-        </div>
-      </div>
-
-      <!----- 2nd Section
-      <div class="second-section">
-
         <ul>
-          <li>
-            <figure>
-              <img src="./imgs/real.jpg" alt="Real Message">
-            </figure>
-          </li>
           <li>
             <figure>
               <img src="./imgs/fivemsgs.jpg" alt="Five Messages">
@@ -137,42 +97,47 @@
           </li>
           <li>
             <figure>
-              <img src="./imgs/heartfelt.jpg" alt="Heartfelt Message">
+              <img src="./imgs/real.jpg" alt="Real image">
             </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./imgs/heartfelt.jpg" alt="Heartfelt image">
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./imgs/simple.jpg" alt="Simple image">
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./imgs/funny.jpg" alt="Funny image">
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./imgs/furry.jpg" alt="Furry image">
+            </figure>
+          </li>
         </ul>
-
-        <ul>
-          <li>
-            <figure>
-              <img src="./imgs/simple.jpg" alt="Simple Message">
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./imgs/furry.jpg" alt="Furry Message">
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./imgs/funny.jpg" alt="Funy Message">
-            </figure>
-          </li>
-        </ul>
-
       </div>
-      ----->
 
       <!----- 3rd Section ----->
       <div class="third-section">
-        <div class="third-section-title">
-          <img src="./imgs/section-three-title.png" alt="Sesame Street Collections">
+        <div class="third-section-image-yellowbox">
+          <div class="third-section-img">
+            <img src="./imgs/section-three-title.png" alt="Sesame Street Collections">
+          </div>
         </div>
 
         <ul>
           <li class="products">
             <figure>
               <a href="" target="_blank">
-                <img src="./imgs/product-480.jpg" alt="1st Product">
+                <div class="product-image">
+                  <img src="./imgs/product.jpg" alt="1st Product">
+                </div>
               </a>
               <div class="product-desc">
                 Demo
@@ -182,7 +147,9 @@
           <li class="products">
             <figure>
               <a href="" target="_blank">
-                <img src="./imgs/product-480.jpg" alt="2nd Product">
+                <div class="product-image">
+                  <img src="./imgs/product.jpg" alt="2nd Product">
+                </div>
               </a>
               <div class="product-desc">
                 Demo
@@ -192,7 +159,9 @@
           <li class="products">
             <figure>
               <a href="" target="_blank">
-                <img src="./imgs/product-480.jpg" alt="3rd Product">
+                <div class="product-image">
+                  <img src="./imgs/product.jpg" alt="3rd Product">
+                </div>
               </a>
               <div class="product-desc">
                 Demo
@@ -202,7 +171,9 @@
           <li class="products">
             <figure>
               <a href="" target="_blank">
-                <img src="./imgs/product-480.jpg" alt="4th Product">
+                <div class="product-image">
+                  <img src="./imgs/product.jpg" alt="4th Product">
+                </div>
               </a>
               <div class="product-desc">
                 Demo
@@ -212,91 +183,13 @@
         </ul>
       </div>
 
-      <!----- 3rd Section
-      <div class="third-section">
-
-        <div class="third-section-title">
-          <img src="./imgs/section-three-title.png" alt="Sesame Street Collections">
-        </div>
-
-        <div class="container">
-          <ul>
-            <li class="first-product">
-              <figure>
-                <img src="./imgs/product.jpg" alt="1st product">
-                <div>
-                  asdfasdfasdlfj
-                </div>
-                <div>
-                  asldfja;lsdfjl;sdjf
-                </div>
-              </figure>
-            </li>
-            <li class="second-product">
-              <figure>
-                <img src="./imgs/product.jpg" alt="2nd product">
-                <div>
-                  asdfasdfasdlfj
-                </div>
-                <div>
-                  asldfja;lsdfjl;sdjf
-                </div>
-              </figure>
-            </li>
-            <li class="third-product">
-              <figure>
-                <img src="./imgs/product.jpg" alt="3rd product">
-                <div>
-                  asdfasdfasdlfj
-                </div>
-                <div>
-                  asldfja;lsdfjl;sdjf
-                </div>
-              </figure>
-            </li>
-          </ul>
-          <ul>
-            <li class="fourth-product">
-              <figure>
-                <img src="./imgs/product.jpg" alt="4th product">
-                <div>
-                  asdfasdfasdlfj
-                </div>
-                <div>
-                  asldfja;lsdfjl;sdjf
-                </div>
-              </figure>
-            </li>
-            <li class="fifth-product">
-              <figure>
-                <img src="./imgs/product.jpg" alt="5th product">
-                <div>
-                  asdfasdfasdlfj
-                </div>
-                <div>
-                  asldfja;lsdfjl;sdjf
-                </div>
-              </figure>
-            </li>
-            <li class="sixth-product">
-              <figure>
-                <img src="./imgs/product.jpg" alt="6th product">
-                <div>
-                  asdfasdfasdlfj
-                </div>
-                <div>
-                  asldfja;lsdfjl;sdjf
-                </div>
-              </figure>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-      ----->
-
       <!----- 4th Section ----->
       <div class="fourth-section">
+        <div class="fourth-section-image-yellowbox">
+          <div class="fourth-section-img">
+            <img src="./imgs/section-four-title.png" alt="Sesame Street Video">
+          </div>
+        </div>
         <div class="video-container">
           <iframe src="https://www.youtube.com/embed/watch?v=FvS3C7r6DjY?rel=0&controls=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
@@ -320,7 +213,7 @@
       <div class="logos">
         <ul>
           <li>
-            <img class="logo-imgs" src="./imgs/sally-beauty-logo.jpg" alt="Sally Beauty Logo">
+            <img class="logo-imgs left-side-margin768" src="./imgs/sally-beauty-logo.jpg" alt="Sally Beauty Logo">
           </li>
           <li>
             <img class="logo-imgs" src="./imgs/ulta-logo.jpg" alt="Ulta Logo">
@@ -344,9 +237,8 @@
       </div>
       ----->
 
-    </div>
 
-      <!----- Footer
+      <!----- Footer ----->
       <div class="footer">
 
         <div class="container">
@@ -358,10 +250,10 @@
                 <br>
                 Songbird Serenade, My Little Pony And All Related Characters Are Trademarks of Hasbro And Are Used With Permission.
                 <br>
-                &copy; 2017 Hasbro. All Rights Reserved. My Little Pony: The Movie &copy; 2017 My Little Pony Productions LLC. Licensed By Hasbro.
+                &copy; 2019 Hasbro. All Rights Reserved. Sesame Street: The Movie &copy; 2019 My Little Pony Productions LLC. Licensed By Hasbro.
             </p>
           </div>
-          <div class="logos">
+          <div class="social-media">
             <span class="facebook">
               <a href="https://www.facebook.com/chinaglazeofficial" target="_blank">
                 <img src="https://gallery.mailchimp.com/050619ba1fc52dac9b5098a6f/images/5c0929f3-17f9-46ed-a3d6-240aee657a96.png" alt="Facebook">
@@ -386,7 +278,7 @@
         </div>
 
       </div>
-      ----->
+    </div>
 
   </body>
 </html>

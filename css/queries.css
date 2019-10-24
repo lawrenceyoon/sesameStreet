@@ -1,6 +1,241 @@
-@media only screen and (max-width: 480px) {
+/* ----- Small phones: from 0 to 479px ----- */
+@media (min-width: 0px) {
+  /* 1st Section */
+  .first-section .celebrate-image {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  /* 2nd Section */
+  .second-section {
+    display: none;
+  }
+
+  /* 3rd Section */
+  .third-section-img {
+    width: 70%;
+  }
+
+  /* 4th Section */
+  .fourth-section-img {
+    width: 70%;
+  }
+}
+
+/* ----- Small phones to small tablets: from  480px to 767px ----- */
+@media (min-width: 480px) {
+  /* 1st Section */
+
+
+  /* 2nd Section */
+  .second-section {
+    display: block;
+  }
+
+  /* 4th Section */
+  .video-container {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .fourth-section iframe {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .facebook img, .twitter img, .youtube img, .instagram img {
+    width: 8%;
+    margin: 20px;
+  }
+}
+
+/* ----- Small tablet to big tablet: from 768px to 899px ----- */
+@media (min-width: 768px) {
+  /* 1st Section */
+  .first-section .celebrate-image {
+    margin-top: 100px;
+  }
+
+  .first-section .celebrate-text-mobile {
+    display: none;
+  }
+
+  .first-section .celebrate-text {
+    display: block;
+    width: 80%;
+    margin: 30px auto 60px auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+    letter-spacing: 0.04em;
+  }
+
+  /* 3rd Section */
+  .third-section-img-yellowbox {
+    width: 70%;
+  
+  }
+
+  .third-section .product-image {
+    width: 40%;
+  }
+
+  /* 4th Section */
+  .fourth-section .video-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .third-section-img-yellowbox {
+    width: 70%;
+  }
+
+  .third-section .product-image {
+    width: 40%;
+  }
+
+  .fourth-section iframe {
+    width: 100%;
+  }
+
+  /* Logos */
+  .logos {
+    padding: 25px 0;
+  }
+
+  .logos .logo-imgs {
+    width: 25%;
+  }
+
+  .logos .left-side-margin768 {
+    margin-left: 12.5%;
+  }
+
+  /* Footer */
+  .facebook img, .twitter img, .youtube img, .instagram img {
+    width: 8%;
+    margin: 25px;
+  }
+}
+
+/* ----- 900px <= x ----- */
+@media (min-width: 900px) {
+  body {
+    background-color: #fed105;
+    background-image: url(../imgs/collection-bg.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  .wrapper {
+    border: 1px solid black;
+  }
 
   /* Header */
+  .nav {
+    display: inline-block;
+    background-color: #fed105;
+    border-top: 1px solid #333;
+    border-bottom: 2px solid #333;
+  }
 
+  .nav .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .nav .container:after {
+    clear: both;
+    display: table;
+    content: "";
+  }
+
+  .nav .logo {
+    width: 150px;
+    float: left;
+  }
+  
+  .nav ul {
+    list-style: none;
+    float: right;
+    position: relative;
+    top: 40px;
+    font-family: Muli;
+    text-transform: uppercase;
+  }
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav .navi-padding-left {
+    padding-left: 10px;
+  }
+  
+  .nav .navi-padding-both {
+    padding: 0 10px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  /* Main bg */
+  .bg-image-upto899px {
+    display: none;
+  }
+
+  .main-bg {
+    background-image: url(../imgs/main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  /* 1st Section */
+  .first-section .celebrate-image {
+    margin-top: 0px;
+  }
+
+  /* 2nd Section */
+  .second-section ul {
+    list-style: none;
+    width: 100%;
+  }
+  
+  .second-section ul:after {
+    clear: both;
+    display: table;
+    content: "";
+  }
+  
+  .second-section li {
+    float: left;
+    width: 33.33%;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  .second-section img {
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .second-section img:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* 4th Section */
   
 }
