@@ -243,15 +243,6 @@
   }
 
   /* 3rd Section */
-  .third-section .products {
-    background-color: #fed105;
-    background-image: url(../imgs/collection-bg.png);
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-  }
-
   .third-section .product-image {
     background-color: #fed105;
   }
